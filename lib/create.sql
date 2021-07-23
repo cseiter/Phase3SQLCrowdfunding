@@ -12,3 +12,10 @@ CREATE TABLE users(
     name TEXT,
     age NUMERIC
 );
+
+CREATE TABLE pledges(
+    id INTEGER PRIMARY KEY,
+    amount NUMERIC,
+    user_id NUMERIC,
+    project_id NUMERIC
+);
